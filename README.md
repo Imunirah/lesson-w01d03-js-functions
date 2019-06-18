@@ -297,6 +297,8 @@ If the number does not contain 3, 5, or 7 as a factor, output the number as a st
 rainDrop(28) // Plong
 rainDrop(1755) // PlingPlang
 rainDrop(34) // 34
+const rainDrop = function(num){if (num % 3 === 0) console.log ('pling')
+if (num % 5 === 0) console.log ('plang'); if (num % 7 === 0) console.log ('plon'); if (num  % 3 !== 0  && num % 5 !== 0 && num % 7 !== 0) console.log(num);}
 ```
 
 ## Additional Resources
